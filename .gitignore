@@ -1,2 +1,6 @@
 .venv/
 structure.ipynb
+
+data/
+
+# *.csv
