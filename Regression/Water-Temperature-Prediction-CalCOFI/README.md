@@ -10,7 +10,7 @@ The goal is to predict the **water temperature** based on other variables provid
 
 ## Dataset
 
-The dataset used is the **CalCOFI "bottle" dataset**, which includes measurements collected from oceanographic stations in the Pacific Ocean. Key variables include:
+The dataset used is the [CalCOFI "bottle" dataset](https://www.kaggle.com/datasets/sohier/calcofi), which includes measurements collected from oceanographic stations in the Pacific Ocean. Key variables include:
 
 - **T_degC**: Water temperature (target variable)
 - **Salnty**: Water salinity.

@@ -6,7 +6,7 @@ This project investigates the relationship between humidity and temperature, and
 
 ## Dataset
 
-The dataset used in this project contains the following columns after cleaning:
+The dataset [Szeged Weather Dataset](https://www.kaggle.com/datasets/budincsevity/szeged-weather) used in this project contains the following columns after cleaning:
 
 - `Formatted Date`: Date of the weather observation.
 - `Summary`: Weather summary (e.g., clear, cloudy).
@@ -48,12 +48,3 @@ The following metrics were computed to evaluate the models:
 - **RMSE (Root Mean Squared Error)**: Measures the average magnitude of the errors in the predictions.
 - **MAE (Mean Absolute Error)**: Measures the average magnitude of the errors in the predictions, without considering their direction.
 
-## Code Overview
-
-The code is organized into the following sections:
-
-1. **Importing Libraries**
-2. **Loading and Exploring the Data**
-3. **Data Cleaning and Preparation**
-4. **Model Building and Training**
-5. **Model Building**
