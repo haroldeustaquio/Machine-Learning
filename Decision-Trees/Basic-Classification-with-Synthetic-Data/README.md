@@ -18,19 +18,10 @@ This mini-project introduces users to the implementation of decision trees, a fu
 
 ## Tools Used
 
-- **Python 3.x**: The programming language used for this project.
 - **scikit-learn**: Used for data generation (`make_classification`), model training (`DecisionTreeClassifier`), hyperparameter optimization (`GridSearchCV`), and performance evaluation (`confusion_matrix`, `accuracy_score`).
 - **matplotlib**: Used for visualizing the decision tree (`plot_tree`).
 
 ## Requirements
 
-- **Python 3.x**
-- **Packages:** 
-  - `scikit-learn`
-  - `matplotlib`
-
-## Usage Instructions
-
-1. Clone the repository: 
-   ```bash
-   [git clone https://github.com/yourusername/your-repository.git]
+- `scikit-learn`
+- `matplotlib`
