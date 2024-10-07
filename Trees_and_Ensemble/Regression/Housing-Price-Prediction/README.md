@@ -1,10 +1,10 @@
-# Boston Housing Price Prediction with Decision Trees
+# Boston Housing Price Prediction with Decision Trees and Ensemble Methods
 
-This repository contains a project that predicts housing prices in the Boston area using Decision Tree Regression. The project includes data preprocessing, model training, hyperparameter tuning using GridSearchCV, and evaluation of the model's performance.
+This repository contains a project that predicts housing prices in the Boston area using Decision Tree Regression and various ensemble methods. The project includes data preprocessing, model training, hyperparameter tuning using GridSearchCV, and evaluation of the performance of multiple models, including Decision Tree Regressor, Random Forest, Bagging Regressor, AdaBoost, Gradient Boosting, and XGBoost.
 
 ## Project Overview
 
-This project focuses on predicting the median value of owner-occupied homes (`MEDV`) in the Boston area using a Decision Tree Regressor. The model is trained and evaluated on a modified version of the Boston Housing dataset.
+This project focuses on predicting the median value of owner-occupied homes (`MEDV`) in the Boston area. While Decision Tree Regressor is one of the models used, the project also explores ensemble methods to improve the predictive accuracy. Models such as Random Forest, Bagging, AdaBoost, Gradient Boosting, and XGBoost are evaluated and compared.
 
 ## Dataset
 
@@ -26,9 +26,21 @@ The dataset used in this project is the [Boston Housing dataset](https://www.kag
 - **LSTAT:** Percentage of lower status of the population.
 - **MEDV:** Median value of owner-occupied homes in $1000s (Target Variable).
 
+## Models Used
+
+This project evaluates multiple models to improve the prediction accuracy, including:
+
+- **DecisionTreeRegressor:** A simple decision tree model.
+- **Random Forest Regressor:** An ensemble method that builds multiple decision trees and averages their predictions.
+- **Bagging Regressor:** A model that reduces variance by training multiple trees on different subsets of data.
+- **AdaBoost Regressor:** A boosting method that combines weak learners to create a stronger model.
+- **Gradient Boosting Regressor:** Another boosting method that optimizes model performance iteratively.
+- **XGBoost:** An optimized implementation of gradient boosting that is often faster and more accurate.
+
 ## Setup
 
 To run this project, you need to have Python installed along with the following libraries:
 
 - `pandas`
 - `scikit-learn`
+- `xgboost`
