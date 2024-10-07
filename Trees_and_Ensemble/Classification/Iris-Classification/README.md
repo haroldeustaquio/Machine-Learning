@@ -30,3 +30,4 @@ After training the classifier using both **Gini** and **Entropy**, the models pe
 
 - **Accuracy**: High accuracy was achieved in both cases, with slight variation between the methods.
 - **Confusion Matrix**: Both models effectively classified the Iris species, with minimal confusion between Versicolor and Virginica classes.
+
