@@ -1,6 +1,8 @@
 .venv/
-structure.ipynb
+structure_regression.ipynb
+structure_classification.ipynb
 
 data/
-
+catboost_info/
 *.csv
+clustering/
